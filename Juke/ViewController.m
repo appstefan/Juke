@@ -41,7 +41,6 @@ static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.
 //    }];
     
     
-    //TESTING
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
