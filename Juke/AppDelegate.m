@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Spotify/Spotify.h>
+#import <FacebookSDK/FacebookSDK.h>
 
 @interface AppDelegate ()
 
@@ -22,12 +23,15 @@ static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [FBLoginView class];
     return YES;
 }
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
+    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+
+    
     if ([[SPTAuth defaultInstance] canHandleURL:url withDeclaredRedirectURL:[NSURL URLWithString:kCallbackURL]]) {
         [[SPTAuth defaultInstance] handleAuthCallbackWithTriggeredAuthURL:url tokenSwapServiceEndpointAtURL:[NSURL URLWithString:kTokenSwapURL] callback:^(NSError *error, SPTSession *session) {
             if (error != nil) {
@@ -40,7 +44,6 @@ static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.
     }
     return NO;
 }
-
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

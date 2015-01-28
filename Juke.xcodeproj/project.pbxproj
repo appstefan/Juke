@@ -11,6 +11,7 @@
 		8E553B701A749E6C00E98B5E /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B6F1A749E6C00E98B5E /* ImageCache.m */; };
 		8E553B731A749ED600E98B5E /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B721A749ED600E98B5E /* Log.m */; };
 		8E553B771A749F6100E98B5E /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B761A749F6100E98B5E /* Utility.m */; };
+		8EF14C0B1A78A2FD00DC9435 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF14C0A1A78A2FD00DC9435 /* LoginViewController.m */; };
 		8EF5151A1A746970008A0C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515191A746970008A0C5F /* main.m */; };
 		8EF5151D1A746970008A0C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5151C1A746970008A0C5F /* AppDelegate.m */; };
 		8EF515201A746970008A0C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5151F1A746970008A0C5F /* ViewController.m */; };
@@ -21,6 +22,7 @@
 		8EF515401A7469D1008A0C5F /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5153F1A7469D1008A0C5F /* Spotify.framework */; };
 		8EF515421A746D62008A0C5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF515411A746D62008A0C5F /* AVFoundation.framework */; };
 		8EF515461A747E10008A0C5F /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */; };
+		C7E4FE98AC9C425B40A1E8C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A139D8AC09216C24575890 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A9B3269B13CEDB97F525B80 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		51A139D8AC09216C24575890 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		542DECED61D3DA2B8623662A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8E553B6B1A749D3800E98B5E /* CachedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedImageView.h; sourceTree = "<group>"; };
 		8E553B6C1A749D3800E98B5E /* CachedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedImageView.m; sourceTree = "<group>"; };
 		8E553B6E1A749E6C00E98B5E /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
@@ -42,6 +47,8 @@
 		8E553B721A749ED600E98B5E /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
 		8E553B751A749F6100E98B5E /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		8E553B761A749F6100E98B5E /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		8EF14C091A78A2FD00DC9435 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8EF14C0A1A78A2FD00DC9435 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8EF515141A746970008A0C5F /* Juke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF515181A746970008A0C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF515191A746970008A0C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +75,7 @@
 			files = (
 				8EF515421A746D62008A0C5F /* AVFoundation.framework in Frameworks */,
 				8EF515401A7469D1008A0C5F /* Spotify.framework in Frameworks */,
+				C7E4FE98AC9C425B40A1E8C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +111,8 @@
 				8EF515161A746970008A0C5F /* Juke */,
 				8EF515301A746970008A0C5F /* JukeTests */,
 				8EF515151A746970008A0C5F /* Products */,
+				E4891FE47FF5B4279F16AE72 /* Pods */,
+				992E1BC016F5ECD0A8AEEA71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +132,8 @@
 				8E553B781A74A0B700E98B5E /* Tools */,
 				8EF5151B1A746970008A0C5F /* AppDelegate.h */,
 				8EF5151C1A746970008A0C5F /* AppDelegate.m */,
+				8EF14C091A78A2FD00DC9435 /* LoginViewController.h */,
+				8EF14C0A1A78A2FD00DC9435 /* LoginViewController.m */,
 				8EF5151E1A746970008A0C5F /* ViewController.h */,
 				8EF5151F1A746970008A0C5F /* ViewController.m */,
 				8EF515441A747E10008A0C5F /* SearchCollectionViewCell.h */,
@@ -168,6 +180,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		992E1BC016F5ECD0A8AEEA71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A139D8AC09216C24575890 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4891FE47FF5B4279F16AE72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A9B3269B13CEDB97F525B80 /* Pods.debug.xcconfig */,
+				542DECED61D3DA2B8623662A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,10 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EF515371A746970008A0C5F /* Build configuration list for PBXNativeTarget "Juke" */;
 			buildPhases = (
+				28861D4DCF58EF843E0A2356 /* Check Pods Manifest.lock */,
 				8EF515101A746970008A0C5F /* Sources */,
 				8EF515111A746970008A0C5F /* Frameworks */,
 				8EF515121A746970008A0C5F /* Resources */,
 				7E4F90C668BD8DF5CD56D262 /* Find unused imports */,
+				A637E29353F5BAA05E90E416 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +296,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		28861D4DCF58EF843E0A2356 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		7E4F90C668BD8DF5CD56D262 /* Find unused imports */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +325,21 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"/Users/sbritton/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/sbritton/Developer/Apps/Juke\"";
 		};
+		A637E29353F5BAA05E90E416 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -291,6 +352,7 @@
 				8E553B6D1A749D3800E98B5E /* CachedImageView.m in Sources */,
 				8EF515201A746970008A0C5F /* ViewController.m in Sources */,
 				8EF5151D1A746970008A0C5F /* AppDelegate.m in Sources */,
+				8EF14C0B1A78A2FD00DC9435 /* LoginViewController.m in Sources */,
 				8EF515461A747E10008A0C5F /* SearchCollectionViewCell.m in Sources */,
 				8E553B701A749E6C00E98B5E /* ImageCache.m in Sources */,
 				8EF5151A1A746970008A0C5F /* main.m in Sources */,
@@ -417,6 +479,7 @@
 		};
 		8EF515381A746970008A0C5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9B3269B13CEDB97F525B80 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -432,6 +495,7 @@
 		};
 		8EF515391A746970008A0C5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542DECED61D3DA2B8623662A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
