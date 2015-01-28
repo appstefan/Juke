@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E553B6D1A749D3800E98B5E /* CachedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B6C1A749D3800E98B5E /* CachedImageView.m */; };
+		8E553B701A749E6C00E98B5E /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B6F1A749E6C00E98B5E /* ImageCache.m */; };
+		8E553B731A749ED600E98B5E /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B721A749ED600E98B5E /* Log.m */; };
+		8E553B771A749F6100E98B5E /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B761A749F6100E98B5E /* Utility.m */; };
 		8EF5151A1A746970008A0C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515191A746970008A0C5F /* main.m */; };
 		8EF5151D1A746970008A0C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5151C1A746970008A0C5F /* AppDelegate.m */; };
 		8EF515201A746970008A0C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5151F1A746970008A0C5F /* ViewController.m */; };
@@ -14,6 +18,9 @@
 		8EF515251A746970008A0C5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF515241A746970008A0C5F /* Images.xcassets */; };
 		8EF515281A746970008A0C5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF515261A746970008A0C5F /* LaunchScreen.xib */; };
 		8EF515341A746970008A0C5F /* JukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515331A746970008A0C5F /* JukeTests.m */; };
+		8EF515401A7469D1008A0C5F /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5153F1A7469D1008A0C5F /* Spotify.framework */; };
+		8EF515421A746D62008A0C5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF515411A746D62008A0C5F /* AVFoundation.framework */; };
+		8EF515461A747E10008A0C5F /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E553B6B1A749D3800E98B5E /* CachedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedImageView.h; sourceTree = "<group>"; };
+		8E553B6C1A749D3800E98B5E /* CachedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedImageView.m; sourceTree = "<group>"; };
+		8E553B6E1A749E6C00E98B5E /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		8E553B6F1A749E6C00E98B5E /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		8E553B711A749ED600E98B5E /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		8E553B721A749ED600E98B5E /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		8E553B751A749F6100E98B5E /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		8E553B761A749F6100E98B5E /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		8EF515141A746970008A0C5F /* Juke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF515181A746970008A0C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF515191A746970008A0C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +55,10 @@
 		8EF5152D1A746970008A0C5F /* JukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF515321A746970008A0C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF515331A746970008A0C5F /* JukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JukeTests.m; sourceTree = "<group>"; };
+		8EF5153F1A7469D1008A0C5F /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		8EF515411A746D62008A0C5F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8EF515441A747E10008A0C5F /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
+		8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF515421A746D62008A0C5F /* AVFoundation.framework in Frameworks */,
+				8EF515401A7469D1008A0C5F /* Spotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E553B781A74A0B700E98B5E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8E553B711A749ED600E98B5E /* Log.h */,
+				8E553B721A749ED600E98B5E /* Log.m */,
+				8E553B751A749F6100E98B5E /* Utility.h */,
+				8E553B761A749F6100E98B5E /* Utility.m */,
+				8E553B6E1A749E6C00E98B5E /* ImageCache.h */,
+				8E553B6F1A749E6C00E98B5E /* ImageCache.m */,
+				8E553B6B1A749D3800E98B5E /* CachedImageView.h */,
+				8E553B6C1A749D3800E98B5E /* CachedImageView.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		8EF5150B1A746970008A0C5F = {
 			isa = PBXGroup;
 			children = (
+				8EF515411A746D62008A0C5F /* AVFoundation.framework */,
 				8EF515161A746970008A0C5F /* Juke */,
 				8EF515301A746970008A0C5F /* JukeTests */,
 				8EF515151A746970008A0C5F /* Products */,
@@ -81,10 +118,14 @@
 		8EF515161A746970008A0C5F /* Juke */ = {
 			isa = PBXGroup;
 			children = (
+				8EF5153E1A7469BF008A0C5F /* Frameworks */,
+				8E553B781A74A0B700E98B5E /* Tools */,
 				8EF5151B1A746970008A0C5F /* AppDelegate.h */,
 				8EF5151C1A746970008A0C5F /* AppDelegate.m */,
 				8EF5151E1A746970008A0C5F /* ViewController.h */,
 				8EF5151F1A746970008A0C5F /* ViewController.m */,
+				8EF515441A747E10008A0C5F /* SearchCollectionViewCell.h */,
+				8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */,
 				8EF515211A746970008A0C5F /* Main.storyboard */,
 				8EF515241A746970008A0C5F /* Images.xcassets */,
 				8EF515261A746970008A0C5F /* LaunchScreen.xib */,
@@ -119,6 +160,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8EF5153E1A7469BF008A0C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EF5153F1A7469D1008A0C5F /* Spotify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +178,7 @@
 				8EF515101A746970008A0C5F /* Sources */,
 				8EF515111A746970008A0C5F /* Frameworks */,
 				8EF515121A746970008A0C5F /* Resources */,
+				7E4F90C668BD8DF5CD56D262 /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -214,13 +264,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E4F90C668BD8DF5CD56D262 /* Find unused imports */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Find unused imports";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"/Users/sbritton/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/sbritton/Developer/Apps/Juke\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EF515101A746970008A0C5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E553B771A749F6100E98B5E /* Utility.m in Sources */,
+				8E553B731A749ED600E98B5E /* Log.m in Sources */,
+				8E553B6D1A749D3800E98B5E /* CachedImageView.m in Sources */,
 				8EF515201A746970008A0C5F /* ViewController.m in Sources */,
 				8EF5151D1A746970008A0C5F /* AppDelegate.m in Sources */,
+				8EF515461A747E10008A0C5F /* SearchCollectionViewCell.m in Sources */,
+				8E553B701A749E6C00E98B5E /* ImageCache.m in Sources */,
 				8EF5151A1A746970008A0C5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +372,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +408,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -345,6 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Juke",
+				);
 				INFOPLIST_FILE = Juke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Juke",
+				);
 				INFOPLIST_FILE = Juke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +498,7 @@
 				8EF515391A746970008A0C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF5153A1A746970008A0C5F /* Build configuration list for PBXNativeTarget "JukeTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +507,7 @@
 				8EF5153C1A746970008A0C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

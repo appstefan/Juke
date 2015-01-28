@@ -7,18 +7,41 @@
 //
 
 #import "AppDelegate.h"
+#import <Spotify/Spotify.h>
 
 @interface AppDelegate ()
 
 @end
+
+static NSString * const kClientId = @"421e715a799b47f79925e26f05f5c5cf";
+static NSString * const kCallbackURL = @"juke://callback";
+static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.com/swap";
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    if ([[SPTAuth defaultInstance] canHandleURL:url withDeclaredRedirectURL:[NSURL URLWithString:kCallbackURL]]) {
+        [[SPTAuth defaultInstance] handleAuthCallbackWithTriggeredAuthURL:url tokenSwapServiceEndpointAtURL:[NSURL URLWithString:kTokenSwapURL] callback:^(NSError *error, SPTSession *session) {
+            if (error != nil) {
+                NSLog(@"***Auth Error :%@", error);
+                return;
+            }
+            _session = session;
+        }];
+        return YES;
+    }
+    return NO;
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
