@@ -17,36 +17,6 @@
             endingLineNumber = "88"
             landmarkName = "-playTrack:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController playTrack:]"
-                  moduleName = "Juke"
-                  urlString = "file:///Users/sbritton/Developer/Apps/Juke/Juke/ViewController.m"
-                  timestampString = "443853880.713452"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "88"
-                  endingLineNumber = "88"
-                  offsetFromSymbolStart = "240">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__28-[ViewController playTrack:]_block_invoke"
-                  moduleName = "Juke"
-                  urlString = "file:///Users/sbritton/Developer/Apps/Juke/Juke/ViewController.m"
-                  timestampString = "443853880.713892"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "88"
-                  endingLineNumber = "88"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

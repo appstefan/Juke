@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DD8AC57-4162-4997-BF27-8DB8758E1162</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Juke</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C6CA1528C4751962D932D9B712C007A604FC0A7</key>
+		<string>https://github.com/appstefan/Juke.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Juke.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C6CA1528C4751962D932D9B712C007A604FC0A7</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/appstefan/Juke.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C6CA1528C4751962D932D9B712C007A604FC0A7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C6CA1528C4751962D932D9B712C007A604FC0A7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Juke</string>
+		</dict>
+	</array>
+</dict>
+</plist>
