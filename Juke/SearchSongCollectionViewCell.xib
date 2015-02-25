@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GothamHTF-Book.otf">
+            <string>GothamHTF-Book</string>
+        </mutableArray>
+        <mutableArray key="GothamHTF-Light.otf">
+            <string>GothamHTF-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SearchSongCell" id="gTV-IL-0wX" customClass="SearchSongCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="64"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XbL-iE-B2U" userLabel="Album Image" customClass="CachedImageView">
+                        <rect key="frame" x="20" y="12" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="51a-Kv-PT5"/>
+                            <constraint firstAttribute="height" constant="40" id="dQx-k0-2i3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTv-bd-r4D" userLabel="Artist Label">
+                        <rect key="frame" x="76" y="10" width="275" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Zog-fQ-UyN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamHTF-Light" family="Gotham HTF" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBA-hV-tn8" userLabel="Title Label">
+                        <rect key="frame" x="76" y="33" width="275" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Xyc-pY-aZC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamHTF-Book" family="Gotham HTF" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eTv-bd-r4D" secondAttribute="trailing" constant="8" id="9of-NB-OnV"/>
+                <constraint firstItem="eTv-bd-r4D" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="P2J-rw-Cxf"/>
+                <constraint firstAttribute="trailing" secondItem="jBA-hV-tn8" secondAttribute="trailing" constant="8" id="RI1-VQ-QsW"/>
+                <constraint firstItem="eTv-bd-r4D" firstAttribute="leading" secondItem="XbL-iE-B2U" secondAttribute="trailing" constant="16" id="WLC-ya-aKl"/>
+                <constraint firstItem="jBA-hV-tn8" firstAttribute="top" secondItem="eTv-bd-r4D" secondAttribute="bottom" constant="2" id="Yyb-x8-9Xm"/>
+                <constraint firstAttribute="centerY" secondItem="XbL-iE-B2U" secondAttribute="centerY" id="dZP-g5-UBg"/>
+                <constraint firstItem="XbL-iE-B2U" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="jlC-LX-W46"/>
+                <constraint firstItem="jBA-hV-tn8" firstAttribute="leading" secondItem="XbL-iE-B2U" secondAttribute="trailing" constant="16" id="uOU-Go-ERH"/>
+            </constraints>
+            <size key="customSize" width="359" height="50"/>
+            <connections>
+                <outlet property="albumImage" destination="XbL-iE-B2U" id="PWn-SY-f7C"/>
+                <outlet property="artistLabel" destination="eTv-bd-r4D" id="yGQ-0u-2Ex"/>
+                <outlet property="titleLabel" destination="jBA-hV-tn8" id="htB-z0-Iab"/>
+            </connections>
+            <point key="canvasLocation" x="397.5" y="285"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -4,22 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Bolts.xcscheme</key>
+		<key>Pods-Juke-SOZOChromoplast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Facebook-iOS-SDK.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Juke-Bolts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-Juke-Facebook-iOS-SDK.xcscheme</key>
+		<key>Pods-Juke-Voltron.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,12 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JukeTests-Bolts.xcscheme</key>
+		<key>Pods-JukeTests-SOZOChromoplast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-JukeTests-Facebook-iOS-SDK.xcscheme</key>
+		<key>Pods-JukeTests-Voltron.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -44,7 +34,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SOZOChromoplast.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Voltron.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Voltron.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,47 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>028E42D1AF53581D60CFF3F5</key>
+		<key>351B9E016A4D67F87680DFB3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>085A18EDE6021BC90FBF0847</key>
+		<key>4AE47FBC71166DEB64696B55</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE4CA992D42CBA7816F7676A</key>
+		<key>5713EEC9CD1CF1F13F12EFC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C31A4D74EC9079FBC3D56DB0</key>
+		<key>633BF060AD8F341471496545</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C32079D652E24D7404AB6947</key>
+		<key>74106E8BA6EBA4CC135B6D70</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C4B5C6BB48EECA15857F3D9D</key>
+		<key>8DD82533BDBECC5CF1B8017B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB5E5DE5434C572A19E43FC8</key>
+		<key>A896356E6AEAEDA068E0661A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DEFB9E13E60701E4CC12632A</key>
+		<key>BB9154A6582D462B83D3E29D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8A11146CABE7CEBE2D25311</key>
+		<key>CD2AE04A623469586F805692</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D80922FF59023F105894254E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

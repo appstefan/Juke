@@ -1,0 +1,1 @@
+../../../Voltron/Pod/Classes/WMLCollectionViewCell.h

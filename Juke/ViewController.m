@@ -17,30 +17,12 @@
 
 @end
 
-static NSString * const kClientId = @"421e715a799b47f79925e26f05f5c5cf";
-static NSString * const kCallbackURL = @"juke://callback";
-static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.com/swap";
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.searchField.delegate = self;
-    
-//    NSData *encodedObject = [[NSUserDefaults standardUserDefaults] objectForKey:@"session"];
-//    SPTSession *object = (SPTSession*)[NSKeyedUnarchiver unarchiveObjectWithData:encodedObject];
-//    _session = object;
-//    
-    SPTAuth *auth = [SPTAuth defaultInstance];
-    
-    NSURL *loginURL = [auth loginURLForClientId:kClientId declaredRedirectURL:[NSURL URLWithString:kCallbackURL] scopes:@[SPTAuthStreamingScope]];
-    [[UIApplication sharedApplication] performSelector:@selector(openURL:) withObject:loginURL afterDelay:0.1f];
-    
-//    [auth renewSession:_session withServiceEndpointAtURL:[NSURL URLWithString:kTokenSwapURL] callback:^(NSError *error, SPTSession *session) {
-//        _session = session;
-//    }];
-    
-    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -48,9 +30,9 @@ static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.
     _session = ((AppDelegate*)[[UIApplication sharedApplication] delegate]).session;
     self.results = [[NSMutableArray alloc] init];
     [SPTRequest performSearchWithQuery:textField.text queryType:SPTQueryTypeTrack session:_session callback:^(NSError *error, id object) {
-        SPTListPage *page = (SPTListPage*)object;
-        [self.results addObjectsFromArray:page.items];
-        [self.collectionView reloadData];
+            SPTListPage *page = (SPTListPage*)object;
+            [self.results addObjectsFromArray:page.items];
+            [self.collectionView reloadData];
     }];
     return NO;
 }
@@ -85,7 +67,7 @@ static NSString * const kTokenSwapURL = @"https://aqueous-meadow-3841.herokuapp.
 - (void)playTrack:(SPTPartialTrack*)track
 {
     if (self.player == nil) {
-        self.player = [[SPTAudioStreamingController alloc] initWithClientId:kClientId];
+//        self.player = [[SPTAudioStreamingController alloc] initWithClientId:kClientId];
     }
     [self.player loginWithSession:_session callback:^(NSError *error) {
         if (error != nil) {

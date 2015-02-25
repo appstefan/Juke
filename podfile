@@ -2,7 +2,8 @@
 # platform :ios, '6.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
-pod 'Facebook-iOS-SDK'
+pod 'Voltron', '~> 0.2'
+pod 'SOZOChromoplast', '~> 0.0'
 target 'Juke' do
 
 end

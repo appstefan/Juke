@@ -1,13 +1,13 @@
 PODS:
-  - Bolts (1.1.3)
-  - Facebook-iOS-SDK (3.22.0):
-    - Bolts (~> 1.0)
+  - SOZOChromoplast (0.0.1)
+  - Voltron (0.2.1)
 
 DEPENDENCIES:
-  - Facebook-iOS-SDK
+  - SOZOChromoplast (~> 0.0)
+  - Voltron (~> 0.2)
 
 SPEC CHECKSUMS:
-  Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
-  Facebook-iOS-SDK: 0eda8ff7120aada0a9c5f98552f7625da6c3440a
+  SOZOChromoplast: 54e8f6e63e5c0483ee09cf12cb8a857a5f71486c
+  Voltron: 0404e9a6ba23c456678fcd33a5923935ba69b702
 
 COCOAPODS: 0.35.0.rc1

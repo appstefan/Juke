@@ -7,10 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E21DDC31A8587EC00DF15B8 /* AlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E21DDC21A8587EC00DF15B8 /* AlbumsViewController.m */; };
 		8E553B6D1A749D3800E98B5E /* CachedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B6C1A749D3800E98B5E /* CachedImageView.m */; };
 		8E553B701A749E6C00E98B5E /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B6F1A749E6C00E98B5E /* ImageCache.m */; };
 		8E553B731A749ED600E98B5E /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B721A749ED600E98B5E /* Log.m */; };
 		8E553B771A749F6100E98B5E /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E553B761A749F6100E98B5E /* Utility.m */; };
+		8EB54EEF1A8D63A500FFA01D /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB54EEE1A8D63A500FFA01D /* SongViewController.m */; };
+		8EB54EF21A8D700100FFA01D /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB54EF11A8D700100FFA01D /* UIImage+Tint.m */; };
+		8EB591D91A8C91A00055A64A /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB591D81A8C91A00055A64A /* Spotify.framework */; };
+		8EB591EB1A8C992E0055A64A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB591E81A8C992E0055A64A /* Parse.framework */; };
+		8EB591EC1A8C992E0055A64A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB591E91A8C992E0055A64A /* ParseFacebookUtils.framework */; };
+		8EB591F31A8C9E7F0055A64A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB591F11A8C9E7F0055A64A /* FacebookSDK.framework */; };
+		8EB591F71A8CA1E10055A64A /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB591F61A8CA1E10055A64A /* SearchViewController.m */; };
+		8EB591FA1A8CA1EF0055A64A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB591F91A8CA1EF0055A64A /* ShareViewController.m */; };
+		8EB591FD1A8CA4490055A64A /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB591FC1A8CA4490055A64A /* CodeViewController.m */; };
+		8EB592011A8D498A0055A64A /* SongCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB591FF1A8D498A0055A64A /* SongCollectionViewCell.m */; };
+		8EB592021A8D498A0055A64A /* SongCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB592001A8D498A0055A64A /* SongCollectionViewCell.xib */; };
+		8EB592071A8D54850055A64A /* HeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB592051A8D54850055A64A /* HeaderCollectionReusableView.m */; };
+		8EB592081A8D54850055A64A /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB592061A8D54850055A64A /* HeaderCollectionReusableView.xib */; };
+		8EB5920C1A8D56830055A64A /* SearchSongCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB5920A1A8D56830055A64A /* SearchSongCollectionViewCell.m */; };
+		8EB5920D1A8D56830055A64A /* SearchSongCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB5920B1A8D56830055A64A /* SearchSongCollectionViewCell.xib */; };
+		8EED97A31A8C7E0B00F409A8 /* PartyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED97A21A8C7E0B00F409A8 /* PartyViewController.m */; };
+		8EED97A61A8C81AD00F409A8 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EED97A51A8C81AD00F409A8 /* TabBarViewController.m */; };
 		8EF14C0B1A78A2FD00DC9435 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF14C0A1A78A2FD00DC9435 /* LoginViewController.m */; };
 		8EF5151A1A746970008A0C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515191A746970008A0C5F /* main.m */; };
 		8EF5151D1A746970008A0C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5151C1A746970008A0C5F /* AppDelegate.m */; };
@@ -19,9 +37,43 @@
 		8EF515251A746970008A0C5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF515241A746970008A0C5F /* Images.xcassets */; };
 		8EF515281A746970008A0C5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF515261A746970008A0C5F /* LaunchScreen.xib */; };
 		8EF515341A746970008A0C5F /* JukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515331A746970008A0C5F /* JukeTests.m */; };
-		8EF515401A7469D1008A0C5F /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF5153F1A7469D1008A0C5F /* Spotify.framework */; };
 		8EF515421A746D62008A0C5F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF515411A746D62008A0C5F /* AVFoundation.framework */; };
 		8EF515461A747E10008A0C5F /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */; };
+		8EFB0FCC1A8B116F00A85CB7 /* GothamHTF-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FB91A8B116F00A85CB7 /* GothamHTF-Black.otf */; };
+		8EFB0FCD1A8B116F00A85CB7 /* GothamHTF-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FBA1A8B116F00A85CB7 /* GothamHTF-BlackItalic.otf */; };
+		8EFB0FCE1A8B116F00A85CB7 /* GothamHTF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FBB1A8B116F00A85CB7 /* GothamHTF-Bold.otf */; };
+		8EFB0FCF1A8B116F00A85CB7 /* GothamHTF-BoldCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FBC1A8B116F00A85CB7 /* GothamHTF-BoldCondensed.otf */; };
+		8EFB0FD01A8B116F00A85CB7 /* GothamHTF-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FBD1A8B116F00A85CB7 /* GothamHTF-BoldItalic.otf */; };
+		8EFB0FD11A8B116F00A85CB7 /* GothamHTF-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FBE1A8B116F00A85CB7 /* GothamHTF-Book.otf */; };
+		8EFB0FD21A8B116F00A85CB7 /* GothamHTF-BookCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FBF1A8B116F00A85CB7 /* GothamHTF-BookCondensed.otf */; };
+		8EFB0FD31A8B116F00A85CB7 /* GothamHTF-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC01A8B116F00A85CB7 /* GothamHTF-BookItalic.otf */; };
+		8EFB0FD41A8B116F00A85CB7 /* GothamHTF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC11A8B116F00A85CB7 /* GothamHTF-Light.otf */; };
+		8EFB0FD51A8B116F00A85CB7 /* GothamHTF-LightCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC21A8B116F00A85CB7 /* GothamHTF-LightCondensed.otf */; };
+		8EFB0FD61A8B116F00A85CB7 /* GothamHTF-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC31A8B116F00A85CB7 /* GothamHTF-LightItalic.otf */; };
+		8EFB0FD71A8B116F00A85CB7 /* GothamHTF-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC41A8B116F00A85CB7 /* GothamHTF-Medium.otf */; };
+		8EFB0FD81A8B116F00A85CB7 /* GothamHTF-MediumCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC51A8B116F00A85CB7 /* GothamHTF-MediumCondensed.otf */; };
+		8EFB0FD91A8B116F00A85CB7 /* GothamHTF-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC61A8B116F00A85CB7 /* GothamHTF-Thin.otf */; };
+		8EFB0FDA1A8B116F00A85CB7 /* GothamHTF-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC71A8B116F00A85CB7 /* GothamHTF-ThinItalic.otf */; };
+		8EFB0FDB1A8B116F00A85CB7 /* GothamHTF-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC81A8B116F00A85CB7 /* GothamHTF-Ultra.otf */; };
+		8EFB0FDC1A8B116F00A85CB7 /* GothamHTF-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FC91A8B116F00A85CB7 /* GothamHTF-UltraItalic.otf */; };
+		8EFB0FDD1A8B116F00A85CB7 /* GothamHTF-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FCA1A8B116F00A85CB7 /* GothamHTF-XLight.otf */; };
+		8EFB0FDE1A8B116F00A85CB7 /* GothamHTF-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB0FCB1A8B116F00A85CB7 /* GothamHTF-XLightItalic.otf */; };
+		8EFB0FE11A8B1CDB00A85CB7 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB0FE01A8B1CDB00A85CB7 /* StartViewController.m */; };
+		8EFB0FE41A8B2D3B00A85CB7 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB0FE31A8B2D3B00A85CB7 /* ScanViewController.m */; };
+		8EFB0FF21A8B349E00A85CB7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FF11A8B349E00A85CB7 /* Accounts.framework */; };
+		8EFB0FF41A8B34A800A85CB7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FF31A8B34A800A85CB7 /* AudioToolbox.framework */; };
+		8EFB0FF61A8B34B300A85CB7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FF51A8B34B300A85CB7 /* CFNetwork.framework */; };
+		8EFB0FF81A8B34BC00A85CB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FF71A8B34BC00A85CB7 /* CoreGraphics.framework */; };
+		8EFB0FFA1A8B34C400A85CB7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FF91A8B34C400A85CB7 /* CoreLocation.framework */; };
+		8EFB0FFC1A8B34CC00A85CB7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FFB1A8B34CC00A85CB7 /* MobileCoreServices.framework */; };
+		8EFB0FFE1A8B34E700A85CB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FFD1A8B34E700A85CB7 /* QuartzCore.framework */; };
+		8EFB10001A8B34EF00A85CB7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB0FFF1A8B34EF00A85CB7 /* Security.framework */; };
+		8EFB10021A8B34F500A85CB7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB10011A8B34F500A85CB7 /* Social.framework */; };
+		8EFB10041A8B34FD00A85CB7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB10031A8B34FD00A85CB7 /* StoreKit.framework */; };
+		8EFB10061A8B350700A85CB7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB10051A8B350700A85CB7 /* SystemConfiguration.framework */; };
+		8EFB10081A8B351100A85CB7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB10071A8B351100A85CB7 /* libz.dylib */; };
+		8EFB100A1A8B351A00A85CB7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFB10091A8B351A00A85CB7 /* libsqlite3.dylib */; };
+		8EFB100D1A8B426600A85CB7 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFB100C1A8B426600A85CB7 /* CreateViewController.m */; };
 		C7E4FE98AC9C425B40A1E8C5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A139D8AC09216C24575890 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +91,8 @@
 		4A9B3269B13CEDB97F525B80 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		51A139D8AC09216C24575890 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		542DECED61D3DA2B8623662A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8E21DDC11A8587EC00DF15B8 /* AlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsViewController.h; sourceTree = "<group>"; };
+		8E21DDC21A8587EC00DF15B8 /* AlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsViewController.m; sourceTree = "<group>"; };
 		8E553B6B1A749D3800E98B5E /* CachedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedImageView.h; sourceTree = "<group>"; };
 		8E553B6C1A749D3800E98B5E /* CachedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedImageView.m; sourceTree = "<group>"; };
 		8E553B6E1A749E6C00E98B5E /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
@@ -47,6 +101,35 @@
 		8E553B721A749ED600E98B5E /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
 		8E553B751A749F6100E98B5E /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		8E553B761A749F6100E98B5E /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		8EB54EED1A8D63A500FFA01D /* SongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongViewController.h; sourceTree = "<group>"; };
+		8EB54EEE1A8D63A500FFA01D /* SongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongViewController.m; sourceTree = "<group>"; };
+		8EB54EF01A8D700100FFA01D /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		8EB54EF11A8D700100FFA01D /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		8EB591D81A8C91A00055A64A /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = "../../../Downloads/ios-sdk-beta-6/Spotify.framework"; sourceTree = "<group>"; };
+		8EB591DF1A8C977F0055A64A /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		8EB591E81A8C992E0055A64A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8EB591E91A8C992E0055A64A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		8EB591F01A8C9E7F0055A64A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		8EB591F11A8C9E7F0055A64A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		8EB591F51A8CA1E10055A64A /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		8EB591F61A8CA1E10055A64A /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		8EB591F81A8CA1EF0055A64A /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		8EB591F91A8CA1EF0055A64A /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		8EB591FB1A8CA4490055A64A /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		8EB591FC1A8CA4490055A64A /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		8EB591FE1A8D498A0055A64A /* SongCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongCollectionViewCell.h; sourceTree = "<group>"; };
+		8EB591FF1A8D498A0055A64A /* SongCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongCollectionViewCell.m; sourceTree = "<group>"; };
+		8EB592001A8D498A0055A64A /* SongCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongCollectionViewCell.xib; sourceTree = "<group>"; };
+		8EB592041A8D54850055A64A /* HeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		8EB592051A8D54850055A64A /* HeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		8EB592061A8D54850055A64A /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		8EB592091A8D56830055A64A /* SearchSongCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchSongCollectionViewCell.h; sourceTree = "<group>"; };
+		8EB5920A1A8D56830055A64A /* SearchSongCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchSongCollectionViewCell.m; sourceTree = "<group>"; };
+		8EB5920B1A8D56830055A64A /* SearchSongCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchSongCollectionViewCell.xib; sourceTree = "<group>"; };
+		8EED97A11A8C7E0B00F409A8 /* PartyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyViewController.h; sourceTree = "<group>"; };
+		8EED97A21A8C7E0B00F409A8 /* PartyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyViewController.m; sourceTree = "<group>"; };
+		8EED97A41A8C81AD00F409A8 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		8EED97A51A8C81AD00F409A8 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		8EF14C091A78A2FD00DC9435 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8EF14C0A1A78A2FD00DC9435 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8EF515141A746970008A0C5F /* Juke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juke.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,10 +145,47 @@
 		8EF5152D1A746970008A0C5F /* JukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF515321A746970008A0C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF515331A746970008A0C5F /* JukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JukeTests.m; sourceTree = "<group>"; };
-		8EF5153F1A7469D1008A0C5F /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		8EF515411A746D62008A0C5F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8EF515441A747E10008A0C5F /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
 		8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
+		8EFB0FB91A8B116F00A85CB7 /* GothamHTF-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Black.otf"; sourceTree = "<group>"; };
+		8EFB0FBA1A8B116F00A85CB7 /* GothamHTF-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-BlackItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FBB1A8B116F00A85CB7 /* GothamHTF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Bold.otf"; sourceTree = "<group>"; };
+		8EFB0FBC1A8B116F00A85CB7 /* GothamHTF-BoldCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-BoldCondensed.otf"; sourceTree = "<group>"; };
+		8EFB0FBD1A8B116F00A85CB7 /* GothamHTF-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-BoldItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FBE1A8B116F00A85CB7 /* GothamHTF-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Book.otf"; sourceTree = "<group>"; };
+		8EFB0FBF1A8B116F00A85CB7 /* GothamHTF-BookCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-BookCondensed.otf"; sourceTree = "<group>"; };
+		8EFB0FC01A8B116F00A85CB7 /* GothamHTF-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-BookItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FC11A8B116F00A85CB7 /* GothamHTF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Light.otf"; sourceTree = "<group>"; };
+		8EFB0FC21A8B116F00A85CB7 /* GothamHTF-LightCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-LightCondensed.otf"; sourceTree = "<group>"; };
+		8EFB0FC31A8B116F00A85CB7 /* GothamHTF-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-LightItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FC41A8B116F00A85CB7 /* GothamHTF-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Medium.otf"; sourceTree = "<group>"; };
+		8EFB0FC51A8B116F00A85CB7 /* GothamHTF-MediumCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-MediumCondensed.otf"; sourceTree = "<group>"; };
+		8EFB0FC61A8B116F00A85CB7 /* GothamHTF-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Thin.otf"; sourceTree = "<group>"; };
+		8EFB0FC71A8B116F00A85CB7 /* GothamHTF-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-ThinItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FC81A8B116F00A85CB7 /* GothamHTF-Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-Ultra.otf"; sourceTree = "<group>"; };
+		8EFB0FC91A8B116F00A85CB7 /* GothamHTF-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-UltraItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FCA1A8B116F00A85CB7 /* GothamHTF-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-XLight.otf"; sourceTree = "<group>"; };
+		8EFB0FCB1A8B116F00A85CB7 /* GothamHTF-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamHTF-XLightItalic.otf"; sourceTree = "<group>"; };
+		8EFB0FDF1A8B1CDB00A85CB7 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		8EFB0FE01A8B1CDB00A85CB7 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		8EFB0FE21A8B2D3B00A85CB7 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		8EFB0FE31A8B2D3B00A85CB7 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		8EFB0FF11A8B349E00A85CB7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8EFB0FF31A8B34A800A85CB7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8EFB0FF51A8B34B300A85CB7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8EFB0FF71A8B34BC00A85CB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EFB0FF91A8B34C400A85CB7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8EFB0FFB1A8B34CC00A85CB7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8EFB0FFD1A8B34E700A85CB7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8EFB0FFF1A8B34EF00A85CB7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8EFB10011A8B34F500A85CB7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8EFB10031A8B34FD00A85CB7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8EFB10051A8B350700A85CB7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8EFB10071A8B351100A85CB7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8EFB10091A8B351A00A85CB7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8EFB100B1A8B426500A85CB7 /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		8EFB100C1A8B426600A85CB7 /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +193,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB591F31A8C9E7F0055A64A /* FacebookSDK.framework in Frameworks */,
+				8EB591D91A8C91A00055A64A /* Spotify.framework in Frameworks */,
+				8EFB100A1A8B351A00A85CB7 /* libsqlite3.dylib in Frameworks */,
+				8EFB10081A8B351100A85CB7 /* libz.dylib in Frameworks */,
+				8EFB10061A8B350700A85CB7 /* SystemConfiguration.framework in Frameworks */,
+				8EFB10041A8B34FD00A85CB7 /* StoreKit.framework in Frameworks */,
+				8EB591EC1A8C992E0055A64A /* ParseFacebookUtils.framework in Frameworks */,
+				8EFB10021A8B34F500A85CB7 /* Social.framework in Frameworks */,
+				8EFB10001A8B34EF00A85CB7 /* Security.framework in Frameworks */,
+				8EFB0FFE1A8B34E700A85CB7 /* QuartzCore.framework in Frameworks */,
+				8EFB0FFC1A8B34CC00A85CB7 /* MobileCoreServices.framework in Frameworks */,
+				8EFB0FFA1A8B34C400A85CB7 /* CoreLocation.framework in Frameworks */,
+				8EB591EB1A8C992E0055A64A /* Parse.framework in Frameworks */,
+				8EFB0FF81A8B34BC00A85CB7 /* CoreGraphics.framework in Frameworks */,
+				8EFB0FF61A8B34B300A85CB7 /* CFNetwork.framework in Frameworks */,
+				8EFB0FF41A8B34A800A85CB7 /* AudioToolbox.framework in Frameworks */,
+				8EFB0FF21A8B349E00A85CB7 /* Accounts.framework in Frameworks */,
 				8EF515421A746D62008A0C5F /* AVFoundation.framework in Frameworks */,
-				8EF515401A7469D1008A0C5F /* Spotify.framework in Frameworks */,
 				C7E4FE98AC9C425B40A1E8C5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +228,8 @@
 		8E553B781A74A0B700E98B5E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				8EB54EF01A8D700100FFA01D /* UIImage+Tint.h */,
+				8EB54EF11A8D700100FFA01D /* UIImage+Tint.m */,
 				8E553B711A749ED600E98B5E /* Log.h */,
 				8E553B721A749ED600E98B5E /* Log.m */,
 				8E553B751A749F6100E98B5E /* Utility.h */,
@@ -104,10 +242,40 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
+		8EB591F41A8CA1C20055A64A /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				8EF5151E1A746970008A0C5F /* ViewController.h */,
+				8EF5151F1A746970008A0C5F /* ViewController.m */,
+				8EF515441A747E10008A0C5F /* SearchCollectionViewCell.h */,
+				8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */,
+				8E21DDC11A8587EC00DF15B8 /* AlbumsViewController.h */,
+				8E21DDC21A8587EC00DF15B8 /* AlbumsViewController.m */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		8EB592031A8D49940055A64A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8EB591FE1A8D498A0055A64A /* SongCollectionViewCell.h */,
+				8EB591FF1A8D498A0055A64A /* SongCollectionViewCell.m */,
+				8EB592001A8D498A0055A64A /* SongCollectionViewCell.xib */,
+				8EB592041A8D54850055A64A /* HeaderCollectionReusableView.h */,
+				8EB592051A8D54850055A64A /* HeaderCollectionReusableView.m */,
+				8EB592061A8D54850055A64A /* HeaderCollectionReusableView.xib */,
+				8EB592091A8D56830055A64A /* SearchSongCollectionViewCell.h */,
+				8EB5920A1A8D56830055A64A /* SearchSongCollectionViewCell.m */,
+				8EB5920B1A8D56830055A64A /* SearchSongCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		8EF5150B1A746970008A0C5F = {
 			isa = PBXGroup;
 			children = (
-				8EF515411A746D62008A0C5F /* AVFoundation.framework */,
+				8EFB0FF01A8B346300A85CB7 /* Fonts */,
+				8EFB0FEF1A8B345400A85CB7 /* Frameworks */,
 				8EF515161A746970008A0C5F /* Juke */,
 				8EF515301A746970008A0C5F /* JukeTests */,
 				8EF515151A746970008A0C5F /* Products */,
@@ -134,10 +302,26 @@
 				8EF5151C1A746970008A0C5F /* AppDelegate.m */,
 				8EF14C091A78A2FD00DC9435 /* LoginViewController.h */,
 				8EF14C0A1A78A2FD00DC9435 /* LoginViewController.m */,
-				8EF5151E1A746970008A0C5F /* ViewController.h */,
-				8EF5151F1A746970008A0C5F /* ViewController.m */,
-				8EF515441A747E10008A0C5F /* SearchCollectionViewCell.h */,
-				8EF515451A747E10008A0C5F /* SearchCollectionViewCell.m */,
+				8EFB0FDF1A8B1CDB00A85CB7 /* StartViewController.h */,
+				8EFB0FE01A8B1CDB00A85CB7 /* StartViewController.m */,
+				8EFB0FE21A8B2D3B00A85CB7 /* ScanViewController.h */,
+				8EFB0FE31A8B2D3B00A85CB7 /* ScanViewController.m */,
+				8EFB100B1A8B426500A85CB7 /* CreateViewController.h */,
+				8EFB100C1A8B426600A85CB7 /* CreateViewController.m */,
+				8EED97A41A8C81AD00F409A8 /* TabBarViewController.h */,
+				8EED97A51A8C81AD00F409A8 /* TabBarViewController.m */,
+				8EED97A11A8C7E0B00F409A8 /* PartyViewController.h */,
+				8EED97A21A8C7E0B00F409A8 /* PartyViewController.m */,
+				8EB591FB1A8CA4490055A64A /* CodeViewController.h */,
+				8EB591FC1A8CA4490055A64A /* CodeViewController.m */,
+				8EB591F51A8CA1E10055A64A /* SearchViewController.h */,
+				8EB591F61A8CA1E10055A64A /* SearchViewController.m */,
+				8EB54EED1A8D63A500FFA01D /* SongViewController.h */,
+				8EB54EEE1A8D63A500FFA01D /* SongViewController.m */,
+				8EB591F81A8CA1EF0055A64A /* ShareViewController.h */,
+				8EB591F91A8CA1EF0055A64A /* ShareViewController.m */,
+				8EB592031A8D49940055A64A /* Cells */,
+				8EB591F41A8CA1C20055A64A /* Old */,
 				8EF515211A746970008A0C5F /* Main.storyboard */,
 				8EF515241A746970008A0C5F /* Images.xcassets */,
 				8EF515261A746970008A0C5F /* LaunchScreen.xib */,
@@ -175,9 +359,69 @@
 		8EF5153E1A7469BF008A0C5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8EF5153F1A7469D1008A0C5F /* Spotify.framework */,
+				8EB591DF1A8C977F0055A64A /* Spotify.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EFB0FB81A8B116F00A85CB7 /* Gotham */ = {
+			isa = PBXGroup;
+			children = (
+				8EFB0FB91A8B116F00A85CB7 /* GothamHTF-Black.otf */,
+				8EFB0FBA1A8B116F00A85CB7 /* GothamHTF-BlackItalic.otf */,
+				8EFB0FBB1A8B116F00A85CB7 /* GothamHTF-Bold.otf */,
+				8EFB0FBC1A8B116F00A85CB7 /* GothamHTF-BoldCondensed.otf */,
+				8EFB0FBD1A8B116F00A85CB7 /* GothamHTF-BoldItalic.otf */,
+				8EFB0FBE1A8B116F00A85CB7 /* GothamHTF-Book.otf */,
+				8EFB0FBF1A8B116F00A85CB7 /* GothamHTF-BookCondensed.otf */,
+				8EFB0FC01A8B116F00A85CB7 /* GothamHTF-BookItalic.otf */,
+				8EFB0FC11A8B116F00A85CB7 /* GothamHTF-Light.otf */,
+				8EFB0FC21A8B116F00A85CB7 /* GothamHTF-LightCondensed.otf */,
+				8EFB0FC31A8B116F00A85CB7 /* GothamHTF-LightItalic.otf */,
+				8EFB0FC41A8B116F00A85CB7 /* GothamHTF-Medium.otf */,
+				8EFB0FC51A8B116F00A85CB7 /* GothamHTF-MediumCondensed.otf */,
+				8EFB0FC61A8B116F00A85CB7 /* GothamHTF-Thin.otf */,
+				8EFB0FC71A8B116F00A85CB7 /* GothamHTF-ThinItalic.otf */,
+				8EFB0FC81A8B116F00A85CB7 /* GothamHTF-Ultra.otf */,
+				8EFB0FC91A8B116F00A85CB7 /* GothamHTF-UltraItalic.otf */,
+				8EFB0FCA1A8B116F00A85CB7 /* GothamHTF-XLight.otf */,
+				8EFB0FCB1A8B116F00A85CB7 /* GothamHTF-XLightItalic.otf */,
+			);
+			path = Gotham;
+			sourceTree = "<group>";
+		};
+		8EFB0FEF1A8B345400A85CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB591F01A8C9E7F0055A64A /* Bolts.framework */,
+				8EB591F11A8C9E7F0055A64A /* FacebookSDK.framework */,
+				8EB591E81A8C992E0055A64A /* Parse.framework */,
+				8EB591E91A8C992E0055A64A /* ParseFacebookUtils.framework */,
+				8EB591D81A8C91A00055A64A /* Spotify.framework */,
+				8EFB10091A8B351A00A85CB7 /* libsqlite3.dylib */,
+				8EFB10071A8B351100A85CB7 /* libz.dylib */,
+				8EFB10051A8B350700A85CB7 /* SystemConfiguration.framework */,
+				8EFB10031A8B34FD00A85CB7 /* StoreKit.framework */,
+				8EFB10011A8B34F500A85CB7 /* Social.framework */,
+				8EFB0FFF1A8B34EF00A85CB7 /* Security.framework */,
+				8EFB0FFD1A8B34E700A85CB7 /* QuartzCore.framework */,
+				8EFB0FFB1A8B34CC00A85CB7 /* MobileCoreServices.framework */,
+				8EFB0FF91A8B34C400A85CB7 /* CoreLocation.framework */,
+				8EFB0FF71A8B34BC00A85CB7 /* CoreGraphics.framework */,
+				8EFB0FF51A8B34B300A85CB7 /* CFNetwork.framework */,
+				8EFB0FF31A8B34A800A85CB7 /* AudioToolbox.framework */,
+				8EFB0FF11A8B349E00A85CB7 /* Accounts.framework */,
+				8EF515411A746D62008A0C5F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EFB0FF01A8B346300A85CB7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8EFB0FB81A8B116F00A85CB7 /* Gotham */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		992E1BC016F5ECD0A8AEEA71 /* Frameworks */ = {
@@ -249,6 +493,7 @@
 				TargetAttributes = {
 					8EF515131A746970008A0C5F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9AP3GRDUFP;
 					};
 					8EF5152C1A746970008A0C5F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -280,9 +525,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFB0FCD1A8B116F00A85CB7 /* GothamHTF-BlackItalic.otf in Resources */,
+				8EFB0FD21A8B116F00A85CB7 /* GothamHTF-BookCondensed.otf in Resources */,
+				8EB592021A8D498A0055A64A /* SongCollectionViewCell.xib in Resources */,
 				8EF515231A746970008A0C5F /* Main.storyboard in Resources */,
+				8EFB0FCF1A8B116F00A85CB7 /* GothamHTF-BoldCondensed.otf in Resources */,
+				8EFB0FDD1A8B116F00A85CB7 /* GothamHTF-XLight.otf in Resources */,
+				8EFB0FD51A8B116F00A85CB7 /* GothamHTF-LightCondensed.otf in Resources */,
 				8EF515281A746970008A0C5F /* LaunchScreen.xib in Resources */,
+				8EB592081A8D54850055A64A /* HeaderCollectionReusableView.xib in Resources */,
+				8EFB0FD41A8B116F00A85CB7 /* GothamHTF-Light.otf in Resources */,
+				8EFB0FD81A8B116F00A85CB7 /* GothamHTF-MediumCondensed.otf in Resources */,
+				8EFB0FCC1A8B116F00A85CB7 /* GothamHTF-Black.otf in Resources */,
+				8EFB0FDB1A8B116F00A85CB7 /* GothamHTF-Ultra.otf in Resources */,
+				8EFB0FD01A8B116F00A85CB7 /* GothamHTF-BoldItalic.otf in Resources */,
+				8EFB0FDE1A8B116F00A85CB7 /* GothamHTF-XLightItalic.otf in Resources */,
 				8EF515251A746970008A0C5F /* Images.xcassets in Resources */,
+				8EFB0FD11A8B116F00A85CB7 /* GothamHTF-Book.otf in Resources */,
+				8EFB0FDC1A8B116F00A85CB7 /* GothamHTF-UltraItalic.otf in Resources */,
+				8EFB0FD71A8B116F00A85CB7 /* GothamHTF-Medium.otf in Resources */,
+				8EFB0FD91A8B116F00A85CB7 /* GothamHTF-Thin.otf in Resources */,
+				8EFB0FD31A8B116F00A85CB7 /* GothamHTF-BookItalic.otf in Resources */,
+				8EFB0FDA1A8B116F00A85CB7 /* GothamHTF-ThinItalic.otf in Resources */,
+				8EFB0FCE1A8B116F00A85CB7 /* GothamHTF-Bold.otf in Resources */,
+				8EB5920D1A8D56830055A64A /* SearchSongCollectionViewCell.xib in Resources */,
+				8EFB0FD61A8B116F00A85CB7 /* GothamHTF-LightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,14 +614,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB54EF21A8D700100FFA01D /* UIImage+Tint.m in Sources */,
+				8EB592071A8D54850055A64A /* HeaderCollectionReusableView.m in Sources */,
 				8E553B771A749F6100E98B5E /* Utility.m in Sources */,
 				8E553B731A749ED600E98B5E /* Log.m in Sources */,
+				8EFB100D1A8B426600A85CB7 /* CreateViewController.m in Sources */,
+				8EED97A31A8C7E0B00F409A8 /* PartyViewController.m in Sources */,
 				8E553B6D1A749D3800E98B5E /* CachedImageView.m in Sources */,
 				8EF515201A746970008A0C5F /* ViewController.m in Sources */,
+				8EB591F71A8CA1E10055A64A /* SearchViewController.m in Sources */,
+				8EFB0FE11A8B1CDB00A85CB7 /* StartViewController.m in Sources */,
+				8EB592011A8D498A0055A64A /* SongCollectionViewCell.m in Sources */,
+				8E21DDC31A8587EC00DF15B8 /* AlbumsViewController.m in Sources */,
 				8EF5151D1A746970008A0C5F /* AppDelegate.m in Sources */,
+				8EFB0FE41A8B2D3B00A85CB7 /* ScanViewController.m in Sources */,
+				8EED97A61A8C81AD00F409A8 /* TabBarViewController.m in Sources */,
 				8EF14C0B1A78A2FD00DC9435 /* LoginViewController.m in Sources */,
+				8EB591FD1A8CA4490055A64A /* CodeViewController.m in Sources */,
 				8EF515461A747E10008A0C5F /* SearchCollectionViewCell.m in Sources */,
+				8EB5920C1A8D56830055A64A /* SearchSongCollectionViewCell.m in Sources */,
 				8E553B701A749E6C00E98B5E /* ImageCache.m in Sources */,
+				8EB54EEF1A8D63A500FFA01D /* SongViewController.m in Sources */,
+				8EB591FA1A8CA1EF0055A64A /* ShareViewController.m in Sources */,
 				8EF5151A1A746970008A0C5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +681,7 @@
 		8EF515351A746970008A0C5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -434,16 +715,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		8EF515361A746970008A0C5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -470,10 +752,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -483,13 +767,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/Juke",
+					"$(PROJECT_DIR)",
+					/Users/sbritton/Documents/FacebookSDK,
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Juke/Info.plist;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -499,13 +792,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/Juke",
+					"$(PROJECT_DIR)",
+					/Users/sbritton/Documents/FacebookSDK,
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Juke/Info.plist;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

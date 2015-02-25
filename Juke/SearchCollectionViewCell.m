@@ -19,10 +19,12 @@
     self.artistLabel.text = artist.name;
     
     [SPTTrack trackWithURI:partialTrack.uri session:nil callback:^(NSError *error, id object) {
-        SPTTrack *track = (SPTTrack*)object;
-        NSArray *covers = track.album.covers;
-        SPTImage *cover = [covers firstObject];
-        self.coverImage.imageURL = cover.imageURL;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            SPTTrack *track = (SPTTrack*)object;
+            NSArray *covers = track.album.covers;
+            SPTImage *cover = [covers firstObject];
+            self.coverImage.imageURL = cover.imageURL;
+        });
     }];
 }
 
